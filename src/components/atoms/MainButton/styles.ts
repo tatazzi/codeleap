@@ -7,6 +7,7 @@ export default StyleSheet.create({
     borderRadius: 8,
     justifyContent: 'center',
     alignItems: 'center',
+    marginLeft: 4,
     borderWidth: 1,
   },
   buttonText: {fontSize: 16, fontWeight: '700'},
