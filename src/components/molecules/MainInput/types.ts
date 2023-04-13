@@ -3,4 +3,5 @@ export interface MainInputProps {
   title: string;
   placeholder: string;
   height?: number;
+  value?: string;
 }

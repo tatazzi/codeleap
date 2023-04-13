@@ -8,6 +8,7 @@ export const MainInput: FC<MainInputProps> = ({
   title,
   placeholder,
   height,
+  value,
 }) => {
   return (
     <View>
@@ -16,6 +17,7 @@ export const MainInput: FC<MainInputProps> = ({
         style={[styles.input, {height}]}
         placeholder={placeholder}
         onChangeText={onChangeText}
+        value={value}
       />
     </View>
   );
